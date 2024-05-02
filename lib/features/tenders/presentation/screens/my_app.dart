@@ -5,18 +5,23 @@ import 'package:tenders_app/features/tenders/presentation/screens/main_screen/ma
 import 'package:tenders_app/features/tenders/presentation/tenders.dart';
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
         InjectedBlocProvider<TendersCubit>(),
-        InjectedBlocProvider<TenderDetailsCubit>(),
       ],
-      child: const MaterialApp(
+      child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Scaffold(
+        theme: ThemeData(
+            colorScheme: Theme.of(context).colorScheme.copyWith(
+                  primary: Colors.lightBlue[100],
+                  surface: Colors.lightBlue[100],
+                  background: Colors.white,
+                )),
+        home: const Scaffold(
           body: MainScreen(),
         ),
       ),

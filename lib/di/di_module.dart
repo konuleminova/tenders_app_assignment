@@ -1,9 +1,8 @@
-import 'dart:io' as http;
-
+import 'package:http/http.dart' as http;
 import 'package:injectable/injectable.dart';
 
 @module
 abstract class HttpClientModule {
   @lazySingleton
-  http.HttpClient get httpClient => http.HttpClient();
+  http.Client get httpClient => http.Client();
 }

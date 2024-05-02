@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';
 import 'package:tenders_app/di/di.dart';
-import 'package:tenders_app/features/tenders/presentation/screens/app/my_app.dart';
+import 'package:tenders_app/features/tenders/presentation/screens/my_app.dart';
 
 
 class MyHttpOverrides extends HttpOverrides {
