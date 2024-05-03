@@ -7,7 +7,7 @@ This repository hosts a Flutter application designed for a technical assessment.
 
 ### Technologies Used
 - **Flutter**: Used for building the cross-platform mobile application.
-- **API**: Data fetched from [Tenders in Poland API](https://tenders.guru/api/pl/tenders/)
+- **API**: Data fetched from [Tenders in Poland API](https://tenders.guru/pl/api)
 
 ## Architecture
 This project implements the **Repository design pattern** to abstract the data layer from the business logic, ensuring better maintainability and scalability. The architecture components include:
