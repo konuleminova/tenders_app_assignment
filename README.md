@@ -3,7 +3,7 @@
 # Tenders in Poland App
 
 ## Overview
-This repository hosts a Flutter application designed for a technical assessment. It utilizes the "Tenders in Poland API" to display a paginated list of tenders and a dashboard for summary information. The focus is on demonstrating effective data and state management using the Repository design pattern.
+This repository hosts a Flutter application designed for a technical assessment. It utilizes the "Tenders in Poland API" to display a paginated list of tenders and a details for summary information. The focus is on demonstrating effective data and state management using the Repository design pattern.
 
 ### Technologies Used
 - **Flutter**: Used for building the cross-platform mobile application.
