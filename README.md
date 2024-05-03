@@ -1,5 +1,3 @@
-# tenders_app
-
 # Tenders in Poland App
 
 ## Overview
