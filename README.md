@@ -10,7 +10,7 @@ This repository hosts a Flutter application designed for a technical assessment.
 - **API**: Data fetched from [Tenders in Poland API](https://tenders.guru/api/pl/tenders/)
 
 ## Architecture
-This project implements the **Repository design pattern**: to abstract the data layer from the business logic, ensuring better maintainability and scalability. The architecture components include:
+This project implements the **Repository design pattern** to abstract the data layer from the business logic, ensuring better maintainability and scalability. The architecture components include:
 
 - **/lib**:
   - **/di**: Directory for setting up dependency injection, ensuring that the app components receive their dependencies properly.
